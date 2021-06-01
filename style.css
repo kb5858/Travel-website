@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Playball&family=Roboto+Condensed:wght@300&display=swap');
+
+
+    
+body{min-height: 100vh;}
+* {
+    margin:0;
+    padding: 0;
+    /* font-family: 'Playball', cursive; */
+    font-family: 'Baloo Bhai 2', cursive;
+    box-sizing: border-box;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+background:#3a2853;
+position: sticky;
+top:0%;
+height: 60px;
+}
+p{
+width:43%}
+.navbar img{
+    width: 50px;
+    height: 44px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+   
+}
+.navbar ul li{
+    margin-top:7px;
+    margin-right:13px;
+    padding:3px;
+    text-align: center;
+
+}
+.navbar ul li a {
+  color: rgb(241, 235, 235);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+ .navbar ul li a:hover {
+  color: rgb(214, 163, 163);
+}
+.rishikesh{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin-top: 3px;
+}
+.sideside{margin-top:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.side1{width: 500px;
+    height: 188px;
+
+    background-color: #cfaeee;
+}
+.side2{width: 500px;
+    height: 188px;
+
+
+    display: flex;
+    justify-content: right;
+}
+.side2 img{
+    width:33%;
+    margin:3px
+}
+.attraction{
+    margin-top:25px;
+}
+.laxman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sr{
+    position:relative
+}
+.sr span{
+    position: absolute;
+    bottom:7%;
+    color:white;
+   left:5%;
+   font-size: 25px;
+}
+footer{
+    margin-top: 8px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:122px;
+
+}
+.images {
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-image: url(images/himalaya.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    
+}
+.bt{position: absolute;
+    bottom: 2px;
+    left: 20px;
+    background: rgb(174 183 192);
+    padding: 2px 3px;
+    color: #080507;
+    border-radius: 17px;
+    border: 2px solid white;
+}
+.blueparent{
+    display: flex;
+    
+  
+}
+.blueparent img{
+    width:626px;
+}
+.blue{
+    display: flex;
+    align-items: center;
+    width: 400px;position: relative;
+} 
+.blue ul{
+    padding: 20px;
+    position: absolute;
+    left: -54px;
+    background-color:#4255c7;
+    color: aliceblue;
+}
+
+.form{
+    width: 80%;
+    font-size: 21px;
+    margin: auto;
+    font-weight: bold;
+    color:#e2ff19;
+}
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    width:32%;
+    height:33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
